@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+   
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+header{
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 90px;
+    height: 100px;
+}
+.menu li {
+    margin-right: 30px;
+}
+.menu li a:hover{
+    color: #ccc;
+    cursor: pointer;
+    transition: .3s;
+}
+.menu li a{
+    text-transform: uppercase
+}
+.btn-report{
+    background-color: #000;
+    color: #fff !important;
+    padding: 10px 20px;
+}
+.btn-report:hover{
+    background-color:#000;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2;
+}
+.vid-header{
+    height: 810px;
+    min-width: 100%;
+    object-fit: cover;
+    z-index: -100;
+}
+.content-vid{
+    position: absolute;
+    z-index: 0;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    
+}
+.head-title-vid{
+    font-size: 18px;
+    line-height: 3;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+}
+.desc{
+    font-size: 14px;
+    line-height: 3;
+}
+.section-2{
+margin: 80px 0;
+}
+.section-2 .list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-2 .list .box{
+    margin: 0 15px;
+    line-height: 1.8;
+}
+.section-2 .list .box .icon{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.section-2 .list .box .title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.section-2 .list .box .content{
+    color: #999;
+    font-size: 14px;
+}
+.section-3 {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 2.1fr 1fr;
+    grid-gap: 2rem;
+}
+.grid-rows{
+    display: grid;
+    Grid-auto-rows: 3fr; 
+    grid-row-gap: 2rem;
+}
+.section-4{
+    margin: 2rem 0;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2.1fr;
+    grid-gap: 2rem;
+}
+.section-5 .container{
+    background-color: #e9ebee;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.section-5 .container .title-form{
+    font-size: 28px;
+    padding: 1rem 0;
+    color: #999;
+}
+.section-5 .container .form{
+    padding: 2rem 0;
+}
+.section-5 .container .form input{
+    padding: 15px 32px 15px 15px;
+    margin-right: 0.5rem;
+    border: none;
+}
+.section-5 .container .form ::placeholder{
+    color: #ccc ;
+    font-size: 14px;
+}
+.sub-form{
+    font-size: 12px;
+}
+.section-5 .container .form .btn-sub{
+    background-color: #2b3854;
+    padding: 15px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+.section-6 .title-partners{
+    margin: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+.section-6 .insta-pics li{
+    width:25%;
+    max-height:240px ;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.section-6 .partners-flex{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 2rem;
+} 
+.section-7 .flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+.section-7 .title-footer{
+    margin: 1rem 0;
+    font-weight: bold;
+}
+.section-7 ul li{
+    line-height: 1.8;
+}
+.section-7 .col-5{
+    width: 270px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-7 .col-5 .title-footer{
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+.section-7 .col-5 .btn-submit{
+    background-color: hsl(221, 32%, 25%);
+    margin: 20px;
+    padding: 20px 2px;
+    color: #fff;
+}
+footer{
+    margin: 2rem 0;
+    text-align: center;
+}
+footer .icon-social{
+    margin-bottom: 2rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+footer .icon-social:hover{
+    color: #999;
+}
+footer .icon-social i{
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+footer .icon-social i:hover{
+    color:#2b3854;
+}
+footer .title-footer{
+    font-weight: bold;
+    line-height: 2;
+}
